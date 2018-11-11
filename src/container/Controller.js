@@ -41,7 +41,6 @@ const Controller = ({dispatch, intersection}) => {
     const handleGo = (e) => {
         const direction = e.target.innerHTML
         let payload;
-        var t = '1'
         if (intersection[direction] === 'green') {
             return;
         }
